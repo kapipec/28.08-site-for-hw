@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    --primary-color:white;
+    --secondary-color:black;
+    --bg-article-primary-color:#333;
+    --bg-article-secondary-color:#2690d4;
+}
+
+body{
+    display: grid;
+    color: var(--primary-color)
+}
+
+.bg-image{
+    background-image: url(/assets/img/string-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0,7;
+}
+
+.wrapper{
+    display: grid;
+    grid: repeat(3, 1fr) / 1fr;
+    align-items:center;
+    justify-items: center;
+    padding-top: 100px;
+}
